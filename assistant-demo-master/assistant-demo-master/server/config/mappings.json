@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "watson_conversation_apikey": {
+    "searchPatterns": [
+      "user-provided::apikey",
+      "cloudfoundry:$['conversation'][0].credentials.apikey",
+      "env:service_watson_conversation:$.apikey",
+      "env:watson_conversation_apikey",
+      "file://localdev-config.json:$.watson_conversation_apikey"
+    ]
+  },
+  "watson_conversation": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided::url",
+        "cloudfoundry:watson_conversation",
+        "env:watson_conversation_credentials",
+        "file://localdev-config.json:watson_conversation_credentials"
+      ]
+    }
+  },
+  "watson_conversation_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided::iam_apikey_description",
+      "cloudfoundry:$['conversation'][0].credentials.iam_apikey_description",
+      "env:service_watson_conversation:$.iam_apikey_description",
+      "env:watson_conversation_iam_apikey_description",
+      "file://localdev-config.json:$.watson_conversation_iam_apikey_description"
+    ]
+  },
+  "watson_conversation_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided::iam_apikey_name",
+      "cloudfoundry:$['conversation'][0].credentials.iam_apikey_name",
+      "env:service_watson_conversation:$.iam_apikey_name",
+      "env:watson_conversation_iam_apikey_name",
+      "file://localdev-config.json:$.watson_conversation_iam_apikey_name"
+    ]
+  },
+  "watson_conversation_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided::iam_role_crn",
+      "cloudfoundry:$['conversation'][0].credentials.iam_role_crn",
+      "env:service_watson_conversation:$.iam_role_crn",
+      "env:watson_conversation_iam_role_crn",
+      "file://localdev-config.json:$.watson_conversation_iam_role_crn"
+    ]
+  },
+  "watson_conversation_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided::iam_serviceid_crn",
+      "cloudfoundry:$['conversation'][0].credentials.iam_serviceid_crn",
+      "env:service_watson_conversation:$.iam_serviceid_crn",
+      "env:watson_conversation_iam_serviceid_crn",
+      "file://localdev-config.json:$.watson_conversation_iam_serviceid_crn"
+    ]
+  },
+  "watson_conversation_url": {
+    "searchPatterns": [
+      "user-provided::url",
+      "cloudfoundry:$['conversation'][0].credentials.url",
+      "env:service_watson_conversation:$.url",
+      "env:watson_conversation_url",
+      "file://localdev-config.json:$.watson_conversation_url"
+    ]
+  }
+}

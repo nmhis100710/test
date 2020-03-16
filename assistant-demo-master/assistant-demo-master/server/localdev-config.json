@@ -1,0 +1,8 @@
+{
+  "watson_conversation_apikey": "W9w0RohbOOfEbZ9oXOXSUsnrbCqHKPfnFo4hfcWR835J",
+  "watson_conversation_iam_apikey_description": "Auto-generated for key 04e2fa28-c73a-4414-9bc1-646195ed70ba",
+  "watson_conversation_iam_apikey_name": "602d3082-c777-441f-a245-7d93716d7c8d",
+  "watson_conversation_iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "watson_conversation_iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/5681e9da16806f21dabb97c4b7c67fb7::serviceid:ServiceId-5c9d4c9f-d57e-45c3-9aee-7bcd1505a2aa",
+  "watson_conversation_url": "https://api.jp-tok.assistant.watson.cloud.ibm.com/instances/b1798d98-7e21-4a04-9a58-6a69347ae187"
+}
